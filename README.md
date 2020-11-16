@@ -13,4 +13,5 @@
 | 集成验证器(hibernate-validator)使用  | [使用教程](http://liuqh.icu/2020/09/15/springboot-5-yan-zheng-qi/) |   |
 | 集成Redis并结合Spring Cache使用  | [使用教程](http://liuqh.icu/2020/09/17/springboot-7-redis/) |   |
 | 实现AOP+JWT验证登录  | [使用教程](http://liuqh.icu/2020/11/06/springboot-23-aop-use/) |   |
+| 实现图形验证码获取  | | [文档](https://www.hutool.cn/docs/#/captcha/%E6%A6%82%E8%BF%B0)  |
 
