@@ -1,0 +1,23 @@
+# 服务相关
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/micro_serve?characterEncoding=UTF-8&useSSL=false
+    name: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+# mybatis相关的
+mybatis:
+  type-aliases-package: com.hui.springbootapi.model.entity
+  mapper-locations: classpath:mapper/*.xml
+
+
+
+## 生产环境屏蔽Swagger所有资源接口
+swagger:
+  production: true
+

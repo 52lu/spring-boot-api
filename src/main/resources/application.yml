@@ -1,0 +1,4 @@
+# 服务相关
+spring:
+  profiles:
+    active: dev
